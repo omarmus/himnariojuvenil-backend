@@ -3,7 +3,7 @@ const path = require('path');
 
 console.log(__dirname);
 // open the database
-let db = new sqlite3.Database(path.join(__dirname, 'assets/db/hymnalV003.db'), sqlite3.OPEN_READWRITE, (err) => {
+let db = new sqlite3.Database(path.join(__dirname, 'assets/db/hymnalV004.db'), sqlite3.OPEN_READWRITE, (err) => {
   if (err) {
     return console.error('ERROR', err.message);
   }
